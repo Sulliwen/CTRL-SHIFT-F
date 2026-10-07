@@ -1,0 +1,8 @@
+/* Surlignage des résultats via l'API CSS Custom Highlight (Chrome 105+, Firefox 140+). */
+::highlight(cmf-match) {
+  background-color: rgba(255, 212, 0, 0.45);
+}
+::highlight(cmf-current) {
+  background-color: #ff8a1f;
+  color: #111;
+}
